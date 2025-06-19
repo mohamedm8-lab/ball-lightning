@@ -11,6 +11,28 @@
       background: radial-gradient(ellipse at center, #0f2027 0%, #203a43 40%, #2c5364 100%);
       color: #fff;
       overflow-x: hidden;
+      position: relative;
+    }
+    .lightning {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: rgba(255, 255, 255, 0.1);
+      animation: flash 7s infinite;
+    }
+    @keyframes flash {
+      0%, 97%, 100% {
+        opacity: 0;
+      }
+      98% {
+        opacity: 0.6;
+      }
+      99% {
+        opacity: 0.1;
+      }
     }
     header {
       text-align: center;
@@ -32,6 +54,8 @@
       background: rgba(0,0,0,0.6);
       border-radius: 16px;
       box-shadow: 0 0 25px rgba(0,255,255,0.1);
+      position: relative;
+      z-index: 1;
     }
     .section h2 {
       color: #00ffff;
@@ -81,6 +105,7 @@
   </style>
 </head>
 <body>
+  <div class="lightning"></div>
   <header>
     <h1>Ball Lightning Theory</h1>
     <p>by Mohamed Aoukli — Independent Researcher, Algeria 🇩🇿</p>
