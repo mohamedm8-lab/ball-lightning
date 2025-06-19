@@ -1,78 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ball Lightning Theory – Mohammed Aoukli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Aoukli | Ball Lightning Theory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(ellipse at center, #0f2027 0%, #203a43 40%, #2c5364 100%);
+      color: #fff;
+      overflow-x: hidden;
     }
-    .container {
-      max-width: 800px;
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #00ffff;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #aaa;
+    }
+    .section {
+      max-width: 900px;
       margin: 40px auto;
       padding: 20px 30px;
-      background: rgba(0, 0, 0, 0.75);
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,255,255,0.2);
+      background: rgba(0,0,0,0.6);
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(0,255,255,0.1);
     }
-    h1 {
-      text-align: center;
-      font-size: 2.4em;
+    .section h2 {
       color: #00ffff;
+      font-size: 1.8em;
+      margin-bottom: 10px;
     }
-    .author {
-      text-align: center;
+    .section p {
       font-size: 1.1em;
-      color: #ccc;
-      margin-bottom: 30px;
-    }
-    .summary {
-      font-size: 1.1em;
-      line-height: 1.7;
+      line-height: 1.6em;
       color: #e0f7fa;
     }
     .button {
-      display: block;
-      width: fit-content;
-      margin: 30px auto;
-      padding: 12px 25px;
-      background: #00ffff;
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #00ffff;
       color: #000;
       font-weight: bold;
-      border-radius: 30px;
       text-decoration: none;
-      transition: 0.3s ease;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgba(0,255,255,0.5);
     }
     .button:hover {
-      background: #fff;
+      background: white;
       color: #000;
       transform: scale(1.05);
     }
     .footer {
-      margin-top: 40px;
       text-align: center;
+      padding: 40px 20px 20px;
       font-size: 0.9em;
       color: #aaa;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .contact a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Ball Lightning Theory</h1>
-    <p class="author">Mohammed Aoukli – Algeria 🇩🇿</p>
-    <div class="summary">
-      <p>This independent theory proposes that ball lightning may result from <strong>failed electrical discharges</strong> due to the absence of a ground reference. A plasma sphere forms, sustains itself thermally, and decays gradually — matching many real-world observations and witness reports.</p>
-      <p>The paper introduces a physical model with energy dissipation simulations, offering a classical and plausible explanation for this rare and mysterious phenomenon.</p>
+    <p>by Mohamed Aoukli — Independent Researcher, Algeria 🇩🇿</p>
+  </header>  <section class="section">
+    <h2>About Me</h2>
+    <p>I’m Mohamed Aoukli, an independent researcher passionate about unexplained atmospheric phenomena and classical physics. I developed a novel interpretation of ball lightning using classical discharge theory and thermal simulations — all based on independent thinking and physical modeling.</p>
+  </section>  <section class="section">
+    <h2>The Paper</h2>
+    <p>This theory proposes that ball lightning may result from <strong>failed electrical discharges</strong> due to the absence of a ground reference. A plasma sphere forms, sustains itself thermally, and decays gradually — consistent with many real-world observations and reports.</p>
+    <a class="button" href="https://osf.io/9wymt" target="_blank">📄 Read the Full Paper on OSF</a>
+  </section>  <section class="section">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:Aouklim8@gmail.com">📧 Aouklim8@gmail.com</a>
+      <a href="https://www.linkedin.com/in/mohamed-aoukli" target="_blank">🔗 LinkedIn: Mohamed Aoukli</a>
+      <a href="https://github.com/mohamedm8-lab" target="_blank">💻 GitHub: mohamedm8-lab</a>
     </div>
-    <a class="button" href="https://osf.io/9wymt" target="_blank">📄 View the Full Paper on OSF</a>
-    <div class="footer">
-      © 2024 Mohammed Aoukli | All rights reserved
-    </div>
+  </section>  <div class="footer">
+    © 2024 Mohamed Aoukli. All rights reserved.
   </div>
 </body>
 </html>
