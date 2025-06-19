@@ -1,9 +1,10 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ball Lightning – Scientific Theory by Mohammed Aoukli</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
@@ -81,7 +82,7 @@
     <h1>Ball Lightning Theory</h1>
     <p class="author">Mohammed Aoukli – Algeria 🇩🇿</p>
     <div class="image">
-      <img src="https://osf.io/download/ah5mu/files/osfstorage/6666e48e3f623f07c1fca3c0/?direct" alt="Scientific Paper Cover">
+      <img src="https://osf.io/download/ah5mu/files/osfstorage/6666e48e3f623f07c1fca3c0/?direct" alt="Scientific Paper Cover" />
     </div>
     <div class="summary">
       <p>This independent theory proposes that ball lightning may result from <strong>failed electrical discharges</strong> due to the absence of a ground reference. A plasma sphere forms, sustains itself thermally, and decays gradually — matching many real-world observations and witness reports.</p>
